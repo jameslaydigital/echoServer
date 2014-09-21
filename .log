@@ -1,0 +1,466 @@
+[[[[[ ~/webapps/meteors/echoServer ]]]]]
+
+=> Started proxy.
+=> Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Started MongoDB.
+=> Starting your app...                       [34mI20140919-19:24:13.792(0)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20140919-19:24:13.865(0)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20140919-19:24:13.865(0)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20140919-19:24:13.865(0)? [39m** will still be sent to all clients.
+[34mI20140919-19:24:13.866(0)? [39m**
+[34mI20140919-19:24:13.866(0)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20140919-19:24:13.866(0)? [39m**
+[34mI20140919-19:24:13.866(0)? [39m**   $ meteor remove autopublish
+[34mI20140919-19:24:13.866(0)? [39m**
+[34mI20140919-19:24:13.867(0)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20140919-19:24:13.867(0)? [39m** for each collection that you want clients to see.
+[34mI20140919-19:24:13.867(0)? [39m
+=> Started your app.
+
+=> App running at: http://jameslaydigital.com:2000
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: controls.coffee:1: reserved word "function" (compiling controls.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: controls.coffee:7: reserved word "function" (compiling controls.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: controls.coffee:7: reserved word "function" (compiling controls.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: controls.coffee:7: reserved word "function" (compiling controls.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: echoServer.coffee:2: reserved word "function" (compiling echoServer.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: echoServer.coffee:15: unexpected indentation (compiling echoServer.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+[34mW20140919-19:42:52.109(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:42:52.112(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:42:52.113(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:42:52.113(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:42:52.115(0)? (STDERR) [39m[35mReferenceError: penis is not defined[39m
+[34mW20140919-19:42:52.119(0)? (STDERR) [39m[35m    at ./echoServer.coffee:1[39m
+[34mW20140919-19:42:52.119(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/echoServer.coffee.js:26:3[39m
+[34mW20140919-19:42:52.119(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:42:52.120(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:42:52.120(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:42:52.120(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:42:55.807(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:42:55.811(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:42:55.811(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:42:55.812(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:42:55.814(0)? (STDERR) [39m[35mReferenceError: penis is not defined[39m
+[34mW20140919-19:42:55.818(0)? (STDERR) [39m[35m    at ./echoServer.coffee:1[39m
+[34mW20140919-19:42:55.818(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/echoServer.coffee.js:26:3[39m
+[34mW20140919-19:42:55.818(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:42:55.819(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:42:55.819(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:42:55.819(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:42:59.451(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:42:59.455(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:42:59.455(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:42:59.456(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:42:59.461(0)? (STDERR) [39m[35mReferenceError: penis is not defined[39m
+[34mW20140919-19:42:59.461(0)? (STDERR) [39m[35m    at ./echoServer.coffee:1[39m
+[34mW20140919-19:42:59.461(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/echoServer.coffee.js:26:3[39m
+[34mW20140919-19:42:59.461(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:42:59.462(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:42:59.462(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:42:59.462(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing
+=> Errors prevented startup:
+
+While building the application:
+client/subscriptions.js:1:32: Unexpected string
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)
+[34mW20140919-19:55:24.555(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:55:24.558(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:55:24.558(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:55:24.558(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:55:24.561(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:55:24.563(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:55:24.563(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:55:24.564(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:55:24.564(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:55:24.564(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:55:24.564(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:55:28.060(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:55:28.063(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:55:28.063(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:55:28.063(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:55:28.065(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:55:28.069(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:55:28.069(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:55:28.069(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:55:28.069(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:55:28.070(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:55:28.070(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:55:35.109(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:55:35.112(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:55:35.112(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:55:35.113(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:55:35.115(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:55:35.117(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:55:35.118(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:55:35.118(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:55:35.118(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:55:35.119(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:55:35.119(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:55:38.753(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:55:38.755(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:55:38.756(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:55:38.756(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:55:38.759(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:55:38.764(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:55:38.764(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:55:38.765(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:55:38.765(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:55:38.765(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:55:38.766(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:55:42.308(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:55:42.312(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:55:42.312(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:55:42.313(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:55:42.314(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:55:42.319(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:55:42.319(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:55:42.320(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:55:42.320(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:55:42.320(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:55:42.321(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: server/publications.coffee:0: reserved word "function" (compiling server/publications.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+[34mW20140919-19:56:13.719(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:56:13.721(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:56:13.722(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:56:13.722(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:56:13.724(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:56:13.727(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:56:13.728(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:56:13.728(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:56:13.728(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:56:13.728(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:56:13.729(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:56:17.189(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:56:17.192(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:56:17.193(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:56:17.193(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:56:17.195(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:56:17.199(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:56:17.199(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:56:17.200(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:56:17.200(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:56:17.200(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:56:17.201(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140919-19:56:20.698(0)? (STDERR) [39m[35m[39m
+[34mW20140919-19:56:20.701(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140919-19:56:20.701(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140919-19:56:20.701(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140919-19:56:20.703(0)? (STDERR) [39m[35mReferenceError: Messages is not defined[39m
+[34mW20140919-19:56:20.708(0)? (STDERR) [39m[35m    at ./controls.coffee:1[39m
+[34mW20140919-19:56:20.708(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/controls.coffee.js:14:3[39m
+[34mW20140919-19:56:20.708(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140919-19:56:20.708(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140919-19:56:20.709(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140919-19:56:20.709(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)
+=> Errors prevented startup:
+
+While building the application:
+templates.html:13: bad formatting in HTML template
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+templates.html:13: bad formatting in HTML template
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)
+=> Client modified -- refreshing
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)
+[34mI20140920-16:45:15.547(0)? [39mFailed to receive keepalive! Exiting.
+=> Exited with code: 1
+=> Meteor server restarted
+=> Client modified -- refreshing
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)=> Client modified -- refreshing (x13)=> Client modified -- refreshing (x14)=> Client modified -- refreshing (x15)=> Client modified -- refreshing (x16)=> Client modified -- refreshing (x17)=> Client modified -- refreshing (x18)=> Client modified -- refreshing (x19)=> Client modified -- refreshing (x20)=> Client modified -- refreshing (x21)=> Client modified -- refreshing (x22)
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:10: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:10: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:10: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:10: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+[34mW20140920-17:28:28.145(0)? (STDERR) [39m[35m[39m
+[34mW20140920-17:28:28.148(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140920-17:28:28.148(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140920-17:28:28.148(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140920-17:28:28.149(0)? (STDERR) [39m[35mReferenceError: load is not defined[39m
+[34mW20140920-17:28:28.152(0)? (STDERR) [39m[35m    at lib/routes.coffee:6:2[39m
+[34mW20140920-17:28:28.152(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/lib/routes.coffee.js:19:3[39m
+[34mW20140920-17:28:28.153(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140920-17:28:28.153(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140920-17:28:28.153(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140920-17:28:28.154(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140920-17:28:32.212(0)? (STDERR) [39m[35m[39m
+[34mW20140920-17:28:32.214(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140920-17:28:32.215(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140920-17:28:32.215(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140920-17:28:32.216(0)? (STDERR) [39m[35mReferenceError: load is not defined[39m
+[34mW20140920-17:28:32.223(0)? (STDERR) [39m[35m    at lib/routes.coffee:6:2[39m
+[34mW20140920-17:28:32.223(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/lib/routes.coffee.js:19:3[39m
+[34mW20140920-17:28:32.224(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140920-17:28:32.224(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140920-17:28:32.224(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140920-17:28:32.224(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140920-17:28:36.240(0)? (STDERR) [39m[35m[39m
+[34mW20140920-17:28:36.243(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140920-17:28:36.243(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140920-17:28:36.243(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140920-17:28:36.249(0)? (STDERR) [39m[35mReferenceError: load is not defined[39m
+[34mW20140920-17:28:36.249(0)? (STDERR) [39m[35m    at lib/routes.coffee:6:2[39m
+[34mW20140920-17:28:36.249(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/lib/routes.coffee.js:19:3[39m
+[34mW20140920-17:28:36.249(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140920-17:28:36.250(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140920-17:28:36.250(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140920-17:28:36.250(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:11: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:11: unexpected indentation (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+[34mW20140920-17:56:15.027(0)? (STDERR) [39m[35m[39m
+[34mW20140920-17:56:15.030(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140920-17:56:15.031(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140920-17:56:15.031(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140920-17:56:15.032(0)? (STDERR) [39m[35mReferenceError: Rooma is not defined[39m
+[34mW20140920-17:56:15.036(0)? (STDERR) [39m[35m    at ./access_permissions.coffee:1[39m
+[34mW20140920-17:56:15.036(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/access_permissions.coffee.js:28:3[39m
+[34mW20140920-17:56:15.037(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140920-17:56:15.037(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140920-17:56:15.037(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140920-17:56:15.038(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+[34mW20140920-17:56:19.043(0)? (STDERR) [39m[35m[39m
+[34mW20140920-17:56:19.046(0)? (STDERR) [39m[35m/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/fibers/future.js:173[39m
+[34mW20140920-17:56:19.046(0)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20140920-17:56:19.047(0)? (STDERR) [39m[35m						      ^[39m
+[34mW20140920-17:56:19.054(0)? (STDERR) [39m[35mReferenceError: Rooma is not defined[39m
+[34mW20140920-17:56:19.054(0)? (STDERR) [39m[35m    at ./access_permissions.coffee:1[39m
+[34mW20140920-17:56:19.055(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/app/access_permissions.coffee.js:28:3[39m
+[34mW20140920-17:56:19.055(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:161:10[39m
+[34mW20140920-17:56:19.055(0)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20140920-17:56:19.055(0)? (STDERR) [39m[35m    at Function._.each._.forEach (/home/dev/.meteor/packages/meteor-tool/.1.0.31.15jvecu++os.linux.x86_64+web.browser+web.cordova/meteor-tool-os.linux.x86_64/dev_bundle/lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20140920-17:56:19.056(0)? (STDERR) [39m[35m    at /home/dev/webapps/meteors/echoServer/.meteor/local/build/programs/server/boot.js:82:5[39m
+=> Exited with code: 8
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)=> Client modified -- refreshing (x13)=> Client modified -- refreshing (x14)=> Client modified -- refreshing (x15)=> Client modified -- refreshing (x16)=> Client modified -- refreshing (x17)=> Client modified -- refreshing (x18)=> Client modified -- refreshing (x19)=> Client modified -- refreshing (x20)=> Client modified -- refreshing (x21)=> Client modified -- refreshing (x22)=> Client modified -- refreshing (x23)
+=> Errors prevented startup:
+
+While building the application:
+index.html:1: bad formatting in HTML template
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+index.html:1: bad formatting in HTML template
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+index.html:1: bad formatting in HTML template
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)
+=> Errors prevented startup:
+
+While building the application:
+error: File not found: public/.viewport.htlm.swp
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)
+=> Meteor server restarted
+[34mI20140920-19:24:22.764(0)? [39mFailed to receive keepalive! Exiting.
+=> Exited with code: 1
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)=> Client modified -- refreshing (x13)=> Client modified -- refreshing (x14)=> Client modified -- refreshing (x15)=> Client modified -- refreshing (x16)=> Client modified -- refreshing (x17)=> Client modified -- refreshing (x18)=> Client modified -- refreshing (x19)=> Client modified -- refreshing (x20)=> Client modified -- refreshing (x21)=> Client modified -- refreshing (x22)=> Client modified -- refreshing (x23)=> Client modified -- refreshing (x24)=> Client modified -- refreshing (x25)=> Client modified -- refreshing (x26)=> Client modified -- refreshing (x27)=> Client modified -- refreshing (x28)=> Client modified -- refreshing (x29)=> Client modified -- refreshing (x30)=> Client modified -- refreshing (x31)=> Client modified -- refreshing (x32)=> Client modified -- refreshing (x33)=> Client modified -- refreshing (x34)=> Client modified -- refreshing (x35)=> Client modified -- refreshing (x36)=> Client modified -- refreshing (x37)=> Client modified -- refreshing (x38)=> Client modified -- refreshing (x39)=> Client modified -- refreshing (x40)=> Client modified -- refreshing (x41)=> Client modified -- refreshing (x42)=> Client modified -- refreshing (x43)=> Client modified -- refreshing (x44)=> Client modified -- refreshing (x45)=> Client modified -- refreshing (x46)=> Client modified -- refreshing (x47)=> Client modified -- refreshing (x48)=> Client modified -- refreshing (x49)=> Client modified -- refreshing (x50)=> Client modified -- refreshing (x51)=> Client modified -- refreshing (x52)=> Client modified -- refreshing (x53)=> Client modified -- refreshing (x54)=> Client modified -- refreshing (x55)=> Client modified -- refreshing (x56)=> Client modified -- refreshing (x57)=> Client modified -- refreshing (x58)=> Client modified -- refreshing (x59)=> Client modified -- refreshing (x60)=> Client modified -- refreshing (x61)=> Client modified -- refreshing (x62)=> Client modified -- refreshing (x63)=> Client modified -- refreshing (x64)=> Client modified -- refreshing (x65)=> Client modified -- refreshing (x66)=> Client modified -- refreshing (x67)=> Client modified -- refreshing (x68)=> Client modified -- refreshing (x69)=> Client modified -- refreshing (x70)=> Client modified -- refreshing (x71)=> Client modified -- refreshing (x72)=> Client modified -- refreshing (x73)=> Client modified -- refreshing (x74)=> Client modified -- refreshing (x75)=> Client modified -- refreshing (x76)=> Client modified -- refreshing (x77)=> Client modified -- refreshing (x78)=> Client modified -- refreshing (x79)=> Client modified -- refreshing (x80)=> Client modified -- refreshing (x81)=> Client modified -- refreshing (x82)=> Client modified -- refreshing (x83)=> Client modified -- refreshing (x84)=> Client modified -- refreshing (x85)=> Client modified -- refreshing (x86)=> Client modified -- refreshing (x87)=> Client modified -- refreshing (x88)=> Client modified -- refreshing (x89)
+=> Errors prevented startup:
+
+While building the application:
+error: File not found: public/viewport.html
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: client/echoServer.coffee:27: unexpected , (compiling client/echoServer.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Client modified -- refreshing
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)
+=> Meteor server restarted=> Meteor server restarted (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)=> Client modified -- refreshing (x13)=> Client modified -- refreshing (x14)=> Client modified -- refreshing (x15)=> Client modified -- refreshing (x16)=> Client modified -- refreshing (x17)=> Client modified -- refreshing (x18)=> Client modified -- refreshing (x19)=> Client modified -- refreshing (x20)=> Client modified -- refreshing (x21)
+=> Meteor server restarted
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)=> Client modified -- refreshing (x13)=> Client modified -- refreshing (x14)=> Client modified -- refreshing (x15)=> Client modified -- refreshing (x16)=> Client modified -- refreshing (x17)=> Client modified -- refreshing (x18)=> Client modified -- refreshing (x19)=> Client modified -- refreshing (x20)=> Client modified -- refreshing (x21)=> Client modified -- refreshing (x22)=> Client modified -- refreshing (x23)=> Client modified -- refreshing (x24)=> Client modified -- refreshing (x25)=> Client modified -- refreshing (x26)=> Client modified -- refreshing (x27)=> Client modified -- refreshing (x28)=> Client modified -- refreshing (x29)=> Client modified -- refreshing (x30)=> Client modified -- refreshing (x31)=> Client modified -- refreshing (x32)=> Client modified -- refreshing (x33)=> Client modified -- refreshing (x34)=> Client modified -- refreshing (x35)
+=> Meteor server restarted
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:29: unmatched OUTDENT (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+<runJavaScript-118>:148:11: lib/routes.coffee:29: unmatched OUTDENT (compiling lib/routes.coffee) (at handler)
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)=> Meteor server restarted (x7)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)
+=> Meteor server restarted=> Meteor server restarted (x2)
+[34mI20140920-23:42:42.831(0)? [39mIgnoring duplicate publish named 'messages'
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)

@@ -1,0 +1,27 @@
+
+<template name="home">
+  <div class="row-fluid clearfix">
+    <div>You are in the lobby.</div>
+    <div>
+      Start a <a href="{{pathFor 'newRoom'}}">new chat room</a>.
+    </div>
+    <br />
+    <hr />
+    <br />
+  </div>
+  <div class="row-fluid clearfix">
+    <div class="col-sm-6">
+      <h3>Open Rooms</h3>
+    </div>
+  </div>
+  <div class="row-fluid clearfix">
+    <div class="col-sm-12">
+      <ul class="available-rooms">
+        {{#each rooms}}
+        <li> <a href="{{pathFor 'room' _roomId=_id}}">{{_id}}</a> </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</template>
+
